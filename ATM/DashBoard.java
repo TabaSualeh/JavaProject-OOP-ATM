@@ -24,7 +24,7 @@ public class DashBoard extends  JFrame {
 	 * Create the frame.
 	 */
 	public DashBoard(account_info acc) {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\TABA\\Downloads\\Logo.jpeg"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\TABA\\Downloads\\Logo.jpeg"));  // This is used for Icon Image and Path is set where you image is located
 		setTitle("La Casa del Dinero");
 		setForeground(Color.DARK_GRAY);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
